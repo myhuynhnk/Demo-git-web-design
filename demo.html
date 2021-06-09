@@ -7,6 +7,101 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hello demo</h1>
+    <p>Demo git o day</p>
+    <style>
+        table {
+            margin-top: 20px;
+        }
+
+        input {
+            margin-top: 5px;
+        }
+
+        button {
+            margin-top: 10px;
+            border-radius: 10px;
+            background-color: blue;
+            color: #fff;
+            width: 100px;
+        }
+    </style>
+
+    <table border="1">
+        <thead>
+            <th>STT</th>
+            <th>Mục Lục</th>
+        </thead>
+        <tr>
+            <td rowspan="2">Cot 1</td>
+            <td>Cot 2</td>
+            <td colspan="2">Cot 1</td>
+            <!-- <td>Cot 2</td> -->
+            
+        </tr>
+        <tr>
+            <!-- <td>Cot 3</td> -->
+            <td>Cot 4</td>
+            <td rowspan="3">Cot 3</td>
+            <td>Cot 4</td>
+        </tr>
+        <tr>
+            <!-- <td>Cot 5</td> -->
+            <td>Cot 6</td>
+            <td>Cot 5</td>
+            <td rowspan="2">Cot 6</td>
+            
+        </tr>
+        <tr>
+            <!-- <td>Cot 7</td> -->
+            <td>Cot 8</td>
+            <td>Cot 7</td>
+            <!-- <td>Cot 8</td> -->
+        </tr>
+        
+
+        <form action="">
+            <fieldset>
+                <legend>+</legend>
+            </fieldset>
+            Đây là đoạn text<input type="text" placeholder="Gõ chũ vào ô này nè^^">
+        </form>
+
+        <fieldset>
+            <legend>Login </legend>
+            <input type="text" placeholder="login"> 
+            <br>
+            <input type="password" name="password" placeholder='password'>
+            <br>
+            <button>Login</button>
+            <input type="submit" value="Submit"> 
+            <input type="reset">
+        </fieldset>
+        <form action="https://www.google.com.vn/">
+            <input type="text" name="q"/>
+            <input type="submit" value="Tìm kiếm"/>
+          </form>
+          <br>
+          Gender<br>
+          <input type="radio" value="male" name="gender" checked>Male
+          <input type="radio" value="female" name="gender">Female
+          <input type="reset" value="reset"><br> <!--reset cac gia tri ve ban dau-->
+          <textarea name="" id="" cols="80" rows="10" placeholder="Đây là textarea"></textarea> 
+          
+
+          <!-- <form action="/action_page.php">
+            Sở thích:<br/>
+           <input name="hobby" value="travel" type="radio"/> Du lịch <br/>
+           <input name="hobby" value="sport" type="radio"/> Thể thao <br/>
+           <input name="hobby" value="cooking" type="radio"/> Nấu ăn <br/>
+          </form> -->
+          <br>
+          <select name="Sport" id=""> <!--multiple-->
+              <option value="">Footballs</option>
+              <option value="">Bastketball</option>
+              <option value="">Volleyball</option>
+              <option value="">Pingball</option>
+          </select>
+
+    </table>
 </body>
 </html>
